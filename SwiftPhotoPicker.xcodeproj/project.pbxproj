@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DEF33E91CC0738700AAB4BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF33E81CC0738700AAB4BA /* AppDelegate.swift */; };
+		4DEF33EB1CC0738700AAB4BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF33EA1CC0738700AAB4BA /* ViewController.swift */; };
+		4DEF33EE1CC0738700AAB4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEF33EC1CC0738700AAB4BA /* Main.storyboard */; };
+		4DEF33F01CC0738700AAB4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEF33EF1CC0738700AAB4BA /* Assets.xcassets */; };
+		4DEF33F31CC0738700AAB4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEF33F11CC0738700AAB4BA /* LaunchScreen.storyboard */; };
+		4DEF33FB1CC073E900AAB4BA /* SHBPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF33FA1CC073E900AAB4BA /* SHBPickerController.swift */; };
+		4DEF33FD1CC097CB00AAB4BA /* SHBAlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF33FC1CC097CB00AAB4BA /* SHBAlbumListController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DEF33E51CC0738700AAB4BA /* SwiftPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEF33E81CC0738700AAB4BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DEF33EA1CC0738700AAB4BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DEF33ED1CC0738700AAB4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DEF33EF1CC0738700AAB4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DEF33F21CC0738700AAB4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DEF33F41CC0738700AAB4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEF33FA1CC073E900AAB4BA /* SHBPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHBPickerController.swift; sourceTree = "<group>"; };
+		4DEF33FC1CC097CB00AAB4BA /* SHBAlbumListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHBAlbumListController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEF33E21CC0738700AAB4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DEF33DC1CC0738700AAB4BA = {
+			isa = PBXGroup;
+			children = (
+				4DEF33E71CC0738700AAB4BA /* SwiftPhotoPicker */,
+				4DEF33E61CC0738700AAB4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DEF33E61CC0738700AAB4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF33E51CC0738700AAB4BA /* SwiftPhotoPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DEF33E71CC0738700AAB4BA /* SwiftPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF33E81CC0738700AAB4BA /* AppDelegate.swift */,
+				4DEF33EA1CC0738700AAB4BA /* ViewController.swift */,
+				4DEF33FA1CC073E900AAB4BA /* SHBPickerController.swift */,
+				4DEF33FC1CC097CB00AAB4BA /* SHBAlbumListController.swift */,
+				4DEF33EC1CC0738700AAB4BA /* Main.storyboard */,
+				4DEF33EF1CC0738700AAB4BA /* Assets.xcassets */,
+				4DEF33F11CC0738700AAB4BA /* LaunchScreen.storyboard */,
+				4DEF33F41CC0738700AAB4BA /* Info.plist */,
+			);
+			path = SwiftPhotoPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DEF33E41CC0738700AAB4BA /* SwiftPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEF33F71CC0738700AAB4BA /* Build configuration list for PBXNativeTarget "SwiftPhotoPicker" */;
+			buildPhases = (
+				4DEF33E11CC0738700AAB4BA /* Sources */,
+				4DEF33E21CC0738700AAB4BA /* Frameworks */,
+				4DEF33E31CC0738700AAB4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPhotoPicker;
+			productName = SwiftPhotoPicker;
+			productReference = 4DEF33E51CC0738700AAB4BA /* SwiftPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DEF33DD1CC0738700AAB4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shenhongbang;
+				TargetAttributes = {
+					4DEF33E41CC0738700AAB4BA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BNUDL9NS42;
+					};
+				};
+			};
+			buildConfigurationList = 4DEF33E01CC0738700AAB4BA /* Build configuration list for PBXProject "SwiftPhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DEF33DC1CC0738700AAB4BA;
+			productRefGroup = 4DEF33E61CC0738700AAB4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DEF33E41CC0738700AAB4BA /* SwiftPhotoPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DEF33E31CC0738700AAB4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEF33F31CC0738700AAB4BA /* LaunchScreen.storyboard in Resources */,
+				4DEF33F01CC0738700AAB4BA /* Assets.xcassets in Resources */,
+				4DEF33EE1CC0738700AAB4BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DEF33E11CC0738700AAB4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEF33EB1CC0738700AAB4BA /* ViewController.swift in Sources */,
+				4DEF33FD1CC097CB00AAB4BA /* SHBAlbumListController.swift in Sources */,
+				4DEF33FB1CC073E900AAB4BA /* SHBPickerController.swift in Sources */,
+				4DEF33E91CC0738700AAB4BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DEF33EC1CC0738700AAB4BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DEF33ED1CC0738700AAB4BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DEF33F11CC0738700AAB4BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DEF33F21CC0738700AAB4BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DEF33F51CC0738700AAB4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DEF33F61CC0738700AAB4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DEF33F81CC0738700AAB4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.asdc.www.SwiftPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DEF33F91CC0738700AAB4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.asdc.www.SwiftPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DEF33E01CC0738700AAB4BA /* Build configuration list for PBXProject "SwiftPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEF33F51CC0738700AAB4BA /* Debug */,
+				4DEF33F61CC0738700AAB4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEF33F71CC0738700AAB4BA /* Build configuration list for PBXNativeTarget "SwiftPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEF33F81CC0738700AAB4BA /* Debug */,
+				4DEF33F91CC0738700AAB4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DEF33DD1CC0738700AAB4BA /* Project object */;
+}
